@@ -2,10 +2,11 @@
 
 I am currently taking a Math course that require the use of Python. Easy part:  I am familiar with the numerous mathematical theorems and methods. Hard part: Transferring my knowledge into Python. Here are some of my Python Programs that I have so far:
 
-[create an anchor](#Anchors-in-markdown)(#finding-the-average,-lowest,-and-highest-grade)
+[Finding the average, highest, and lowest grades]
 
-[create an anchor](#Anchors-in-markdown)(#prime-number-function)
+[The Prime Number Function]
 
-[create an anchor](#Anchors-in-markdown)(verifying-the-prime-number-theorem)
+[Verifying the Prime Number Theorem] 
 
-[create an anchor](#Anchors-in-markdown)(finding-the-gcde)
+[Finding the GCD]
+
