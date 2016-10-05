@@ -1,18 +1,20 @@
+
+
 def VerifyPNT(N):
 
-   if (N < 2): #The number 2 is considered as the first prime number. So 0 and 1 have to excluded from the range.
+   if (N < 2): #The number 2 is considered as the first prime number. So 0 and 1 have to be excluded from the range.
         return False
-   if (N == 2) or (N == 3): #N has to be prime numbers. 2 and 3 are prime numbers.
+   if (N == 2) or (N == 3): # N has to be prime numbers. 2 and 3 are prime numbers.
        return True
    if (N == 5) or (N == 7): # 5 and 7 are prime numbers.
        return True
-   if (N % 2)  == 0 or (N % 3) == 0: #N cannot be multiples of 2 and 3. If it does, it will be considered as a composite number.
+   if (N % 2)  == 0 or (N % 3) == 0: # N cannot be multiples of 2 and 3. If it is, it will be considered as a composite number.
        return False
-   if (N% 5) == 0 or (N % 7) == 0:#N cannot be multiples or 5 or 7 in order for this to work. The output will be considered False.
+   if (N% 5) == 0 or (N % 7) == 0:# N cannot be multiples or 5 or 7 in order for this to work. The output will be considered False.
        return False
 
    for i in range (2, int(N**(0.5))+1):
-        if (N%i) == 0: #N cannot be divisible by i.
+        if (N%i) == 0:  #N cannot be divisible by i.
             return False
 
    return True
@@ -23,11 +25,11 @@ def VerifyPNT(N):
 
 piN = 0 #This is my pi(N)
 
-N1= 10
-N2= 100
-N3= 1000
-N4= 10000
-N5= 100000
+N1= 10 # This is same as 10**1
+N2= 100 # This is the same as 10**2
+N3= 1000 # This is the same as 10**3 
+N4= 10000 # This is the same as  10**4
+N5= 100000 # This is the same as 10**5 
 
 for i in range (1,N1):
         if VerifyPNT(i) == True:
