@@ -18,6 +18,6 @@ Hard part: Transferring my knowledge into Python. This challenge involves me hav
    
    
    
-## Prime Number Theorem <h2>
+### Prime Number Theorem <h2>
 
 
