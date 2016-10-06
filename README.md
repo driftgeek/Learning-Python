@@ -20,4 +20,13 @@ Hard part: Transferring my knowledge into Python. This challenge involves me hav
    
 ### Prime Number Theorem <h2>
 
+Let's say you wanted to know all of the prime numbers within a certain range, for example, 1-10. By listing the numbers, we can tell there are four prime numbers within that range.
+
+[1, 2, 3, 4, 5, 6, 7, 8, 9, 10] 
+
+*This includes the numbers that multiple of 1 or itself which will leave 2, 3, 5, and 7 as prime numbers.* 
+
+This is also represented by pi(10) = 4. (Disregard pi, it is just a notation). 
+
+
 
