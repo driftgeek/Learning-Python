@@ -17,6 +17,8 @@ Hard part: Transferring my knowledge into Python. This challenge involves me hav
 5. Finding the GCD
 
 6. RSA 
+
+7. Fibonacci
    
    
    
@@ -28,7 +30,7 @@ Let's say you wanted to know all of the prime numbers within a certain range, fo
 
 *This includes the numbers that multiple of 1 or itself which will leave 2, 3, 5, and 7 as prime numbers.* 
 
-This is also represented by pi(10) = 4. (Disregard pi, it is just a notation). Easy, right? What about pi(100), pi(1000), and etc? Hard to determine afterwards on your own but anything like this with 
+This is also represented by pi(10) = 4. (Disregard pi, it is just a notation). Easy, right? What about pi(100), pi(1000), and etc?
 
 
 
